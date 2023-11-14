@@ -1,8 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  useEffect(() => {
+    if (window.screen.orientation && window.screen.orientation.lock) {
+      window.screen.orientation.lock("landscape");
+    }
+
+    // Clean up the effect when the component unmounts
+    return () => {
+      if (window.screen.orientation && window.screen.orientation.unlock) {
+        window.screen.orientation.unlock();
+      }
+    };
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
