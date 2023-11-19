@@ -2,8 +2,6 @@ import { useState } from "react";
 
 export default function Main() {
   const [index, setindex] = useState(0);
-  const [disablednext, setdisablednext] = useState(false);
-  const [disabledprev, setdisabledprev] = useState(false);
 
   const arr = ["start", "maiki", "Mina", "Bero", "kkok", "asdq", "mor", "End"];
   function Next() {
@@ -17,22 +15,28 @@ export default function Main() {
   }
 
   return (
-    <div className="mt-80">
+    <div className="">
       <div className="btns flex justify-between">
         <button
-          className="ml-8"
+          className="ml-8 text-start"
           onClick={Prev}
           disabled={index === 0 ? true : false}
+          style={{
+            color: index === 0 ? "gray" : "#34A8DF",
+          }}
         >
-          Prev
+          <i className="text-4xl fa-solid fa-backward-step"></i>
         </button>
-        <p>{arr[index]}</p>
+        <div className="text-center">{arr[index]}</div>
         <button
-          className="mr-8"
+          className="mr-8 text-end"
           onClick={Next}
           disabled={index === arr.length - 1 ? true : false}
+          style={{
+            color: index === arr.length - 1 ? "gray" : "#34A8DF",
+          }}
         >
-          Next
+          <i className="text-4xl fa-solid fa-forward-step"></i>
         </button>
       </div>
     </div>

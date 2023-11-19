@@ -1,7 +1,17 @@
+* {
+  background-color: #ddd;
+  width: 100%;
+}
+#root {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
 body {
   margin: 0;
   height: 100vh;
-  margin: 400px auto;
+  display: flex;
+  justify-content: space-between;
 }
 @tailwind base;
 @tailwind components;
