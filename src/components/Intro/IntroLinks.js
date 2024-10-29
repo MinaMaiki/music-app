@@ -8,14 +8,18 @@ function IntroLinks() {
       dir="rtl"
     >
       <div className="flex justify-between  gap-10">
-        <div className="shadow-lg text-center  bg-slate-500 hover:bg-slate-600 focus:ring-4 px-6 py-3 rounded-lg text-white transition duration-200 ease-in-out">
-          <Link to="/introlinks/about">فكرة البرنامج</Link>
-        </div>
-        <div className="shadow-lg flex justify-center items-center  bg-slate-500 hover:bg-slate-600 focus:ring-4 px-6 py-3 rounded-lg text-white transition duration-200 ease-in-out">
-          <Link className="text-center" to="/introlinks/introofpro">
-            المقدمة
-          </Link>
-        </div>
+        <Link
+          to="/introlinks/about"
+          className="shadow-lg flex justify-center items-center  p-4 bg-slate-500 hover:bg-slate-600 focus:ring-4 rounded-lg text-white transition duration-200 ease-in-out"
+        >
+          <p className="text-center">فكرة البرنامج</p>{" "}
+        </Link>
+        <Link
+          className="shadow-lg  flex justify-center items-center  p-4 bg-slate-500 hover:bg-slate-600 focus:ring-4 rounded-lg text-white transition duration-200 ease-in-out"
+          to="/introlinks/introofpro"
+        >
+          <p className="text-center">المقدمة</p>
+        </Link>
       </div>
       <div className="mt-10">
         <Outlet />
