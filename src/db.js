@@ -13,6 +13,7 @@ import img12 from "./assists/imgs/سي اوج.png";
 import img13 from "./assists/imgs/سي عجم.png";
 import img14 from "./assists/imgs/دو كردان.png";
 import imgnote from "./assists/imgs/WhatsApp Image 2024-10-28 at 1.50.07 AM.png";
+import imgwoman from "./assists/imgs/Woman.png";
 
 export const arr = [
   {
@@ -25,7 +26,7 @@ export const arr = [
   {
     name: "الدرس الثاني : المسكه الصحيحه لاله الناي  ",
     id: "1",
-    img: "",
+    img: imgwoman,
     text: "المسكه الصحيحه لآله الناي من خلال رفع الرأس والوجه إلي الأمام والأصابع فوق الثقوب بإحكام والإلهام في اليد اليسري فوق الثقب الخلفي، وإبهام اليد اليمني من الخلف لتثبيت القصبه بين اليدين ،ووضع الطرف الاعلي علي حافة الشفتين من الخارج ،وهي مضمونتين دون الضغط عليهم ويكون الناي مائلاً قليلاً إلي اليمين .",
     vid: "https://www.youtube.com/embed/uA-h1CmScHQ?autoplay=0",
   },
@@ -45,7 +46,7 @@ export const arr = [
   {
     name: "الدرس الرابع  : النفخه الأولي لاله الناي ",
     id: "3",
-    img: "",
+    img: imgwoman,
     text: "وهي تنتج بالنفخ الضعيف مع فتح الشفتين قليلاً لتعطي طبقة صوتية غليظة وهي من درجة الراست الي النوا.",
     vid: "",
   },
@@ -102,7 +103,7 @@ export const arr = [
   {
     name: "الدرس الخامس: النفخه الثانيه لاله الناي ",
     id: "11",
-    img: "",
+    img: imgwoman,
     text: "وهي تنتج بالنفخ متوسط القوة مع ضم الشفتين قليلاً لتعطي النغمات ما بين القرار والجواب ، وتعتبر طبقة متوسطة الحدة وهي من درجة النوا حتي درجة المحير .",
     vid: "",
   },
