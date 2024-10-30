@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import startImg from "../src/assists/imgs/akbar-nemati-PBI4tgg2aik-unsplash.jpg";
 function Start() {
   return (
-    <div className="flex justify-between min-h-screen flex-col p-6">
+    <div className="flex justify-between min-h-screen flex-col p-6 pt-0">
       <div className="flex justify-center items-center flex-col text-4xl gap-10">
         <p className="text-center">
           برنامج الكتروني لتعليم آلة الناي للمتخصصين والغير متخصصين
