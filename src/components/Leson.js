@@ -29,9 +29,10 @@ function Leson({ arr, index, videoFun, videoState, Next, Prev, setIndex, id }) {
         </button>
 
         <div className="flex flex-col sm:flex-row items-center gap-6 justify-center">
-          {/* Display the main image */}
-          <img className="max-w-sm mx-2" src={arr[index].img || ""} />
-          {/* Display the note image if available */}
+          <img
+            className={arr[index].xl ? "max-w-3xl mx-2" : "max-w-sm mx-2"}
+            src={arr[index].img || ""}
+          />
           {arr[index].note && (
             <img className="w-72 h-48 mx-2" src={arr[index].note} alt="Note" />
           )}

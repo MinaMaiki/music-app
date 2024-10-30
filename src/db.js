@@ -13,7 +13,11 @@ import img12 from "./assists/imgs/سي اوج.png";
 import img13 from "./assists/imgs/سي عجم.png";
 import img14 from "./assists/imgs/دو كردان.png";
 import imgnote from "./assists/imgs/WhatsApp Image 2024-10-28 at 1.50.07 AM.png";
-import imgwoman from "./assists/imgs/Woman.png";
+import imgwoman from "./assists/imgs/flying Nay.png";
+import imgٌRast from "./assists/imgs/مقام الراست.jpeg";
+import imgbyate from "./assists/imgs/مقام البياتي.jpeg";
+import imgSeba from "./assists/imgs/مقام الصبا.jpeg";
+import imghegaz from "./assists/imgs/مقام الحجاز.jpeg";
 
 export const arr = [
   {
@@ -27,7 +31,7 @@ export const arr = [
     name: "الدرس الثاني : المسكه الصحيحه لاله الناي  ",
     id: "1",
     img: imgwoman,
-    text: "المسكه الصحيحه لآله الناي من خلال رفع الرأس والوجه إلي الأمام والأصابع فوق الثقوب بإحكام والإلهام في اليد اليسري فوق الثقب الخلفي، وإبهام اليد اليمني من الخلف لتثبيت القصبه بين اليدين ،ووضع الطرف الاعلي علي حافة الشفتين من الخارج ،وهي مضمونتين دون الضغط عليهم ويكون الناي مائلاً قليلاً إلي اليمين .",
+    text: "المسكه الصحيحه لآله الناي من خلال رفع الرأس والوجه إلي الأمام والأصابع فوق الثقوب بإحكام والإبهام في اليد اليسري فوق الثقب الخلفي، وإبهام اليد اليمني من الخلف لتثبيت القصبه بين اليدين ،ووضع الطرف الاعلي علي حافة الشفتين من الخارج ،وهي مضمونتين دون الضغط عليهم ويكون الناي مائلاً قليلاً إلي اليمين .",
     vid: "https://www.youtube.com/embed/uA-h1CmScHQ?autoplay=0",
   },
   {
@@ -136,31 +140,43 @@ export const arr = [
     vid: "",
   },
   {
-    name: "الدرس السادس :مقام الراست",
+    name: "الدرس السادس : المقامات",
     id: "16",
-    img: "",
-    text: "",
+    img: imgwoman,
+    text: `المقام هو تتابع نغمي لسبع درجات أساسية متتالية في الصعود أو الهبوط مع تكرار الدرجة الصوتية الأولي في الجواب، ويتكون من جنس الأصل وجنس الفرع، ولكل مقام أبعاده التي تمكننا من التعرف علي التكوين الأساسي له وطابعه الذي يميزه.`,
     vid: "",
   },
+
   {
-    name: "الدرس السابع : مقام البياتي",
+    name: "مقام الراست",
     id: "17",
-    img: "",
+    img: imgٌRast,
     text: "",
     vid: "",
+    xl: true,
   },
   {
-    name: "الدرس الثامن : مقام الحجاز",
+    name: " مقام البياتي",
     id: "18",
-    img: "",
+    img: imgbyate,
     text: "",
     vid: "",
+    xl: true,
   },
   {
-    name: "الدرس التاسع : مقام الصبا",
+    name: " مقام الحجاز",
     id: "19",
-    img: "",
+    img: imghegaz,
     text: "",
     vid: "",
+    xl: true,
+  },
+  {
+    name: " مقام الصبا",
+    id: "20",
+    img: imgSeba,
+    text: "",
+    vid: "",
+    xl: true,
   },
 ];

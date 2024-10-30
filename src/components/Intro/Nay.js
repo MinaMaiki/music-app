@@ -7,7 +7,7 @@ function Nay() {
       className="p-4 max-w-prose mx-auto text-right text-gray-800 bg-white"
       dir="rtl"
     >
-      <p className=" leading-relaxed" dir="rtl">
+      <p className=" leading-relaxed " dir="rtl">
         <h2 className="text-2xl font-semibold mb-4 underline">
           معلومات عن اله الناي :{" "}
         </h2>
@@ -25,7 +25,7 @@ function Nay() {
       </div>{" "}
       <p className="text-center">
         <Link
-          to={"/introlinks/introofpro"}
+          to={"/introlinks/introofpro1"}
           className="font-bold py-1 rounded-lg  px-3 text-center bg-slate-700 text-white focus:ring-2 hover:bg-slate-600 transition duration-200 ease-in-out"
         >
           ➡

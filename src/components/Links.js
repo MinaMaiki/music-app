@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import imgsrcmusicworld from "../assists/imgs/عالم الموسيقي.png";
-import imgsrcwoman from "../assists/imgs/Woman.png";
+import bgintro from "../assists/imgs/bg intro.png";
 
 function Links() {
   return (
@@ -38,9 +38,9 @@ function Links() {
 
         <div className="flex justify-center md:justify-end">
           <img
-            src={imgsrcwoman}
+            src={bgintro}
             alt="Side"
-            className="w-full h-auto max-w-sm sm:max-w-lg"
+            className="w-full h-auto max-w-4xl sm:max-w-4xl"
           />
         </div>
       </div>

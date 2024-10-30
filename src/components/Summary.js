@@ -26,7 +26,9 @@ function Summary() {
   };
 
   const renderLessonLink = (lesson) => {
-    const isLink = ["0", "1", "2", "16", "17", "18", "19"].includes(lesson.id);
+    const isLink = ["0", "1", "2", "16", "17", "18", "19", "20"].includes(
+      lesson.id
+    );
 
     return isLink ? (
       <Link
@@ -47,7 +49,7 @@ function Summary() {
       <div className="flex p-4 gap-8 h-full flex-col">
         {arr
           .filter((lesson) =>
-            ["0", "1", "2", "3", "11", "16", "17", "18", "19"].includes(
+            ["0", "1", "2", "3", "11", "16", "17", "18", "19", "20"].includes(
               lesson.id
             )
           )
