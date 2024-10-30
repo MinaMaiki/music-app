@@ -16,7 +16,7 @@ function App() {
     <div className="App min-h-screen bg-gradient-to-l from-[#ffff] to-[#acacac] ">
       <div className="flex items-center justify-end px-4">
         <img
-          className="rounded-full w-20 h-20 border-2 mt-2 border-slate-300 object-cover"
+          className="rounded-full w-20 h-20 border-2 m-4 border-slate-300 object-cover"
           src={logo}
           alt="Logo"
         />

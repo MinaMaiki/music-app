@@ -6,7 +6,7 @@ import bgintro from "../assists/imgs/bg intro.png";
 function Links() {
   return (
     <div className="flex justify-between flex-col min-h-screen">
-      <div className="mt-24 flex items-center justify-center px-4 sm:px-0">
+      <div className=" flex items-center mt-4 justify-center px-4 sm:px-0">
         <img
           src={imgsrcmusicworld}
           alt="img"
@@ -14,8 +14,8 @@ function Links() {
         />
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between p-4 md:p-12 gap-8">
-        <div className="flex flex-col p-4 gap-6 text-xl md:text-3xl">
+      <div className="flex flex-col md:flex-row justify-between p-4 gap-6 md:p-16 ">
+        <div className="flex flex-col gap-6 text-xl md:text-3xl">
           <Link
             to="/introlinks"
             className="font-bold p-5 text-center rounded-md bg-white md:ml-12 hover:bg-slate-300 transition duration-200 ease-in-out"
@@ -36,13 +36,11 @@ function Links() {
           </Link>
         </div>
 
-        <div className="flex justify-center md:justify-end">
-          <img
-            src={bgintro}
-            alt="Side"
-            className="w-full h-auto max-w-4xl sm:max-w-4xl"
-          />
-        </div>
+        <img
+          src={bgintro}
+          alt="Side"
+          className="w-full h-auto max-w-4xl sm:max-w-lg"
+        />
       </div>
     </div>
   );
