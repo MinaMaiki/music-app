@@ -18,7 +18,7 @@ function Summary() {
         <Link
           key={le.id}
           to={`/lesons/${le.id}`}
-          className="hover:text-blue-400 hover:underline transition-all duration-200 ease-in-out"
+          className="my-1 font-bold bg-blue-50 text-gray-900 p-2 rounded-md border-b-4 border-blue-300 hover:bg-blue-100  transition-all duration-300 ease-in-out"
         >
           {le.name}
         </Link>
