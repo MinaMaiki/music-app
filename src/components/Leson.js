@@ -5,6 +5,10 @@ function Leson({ arr, index, videoFun, videoState, Next, Prev, setIndex, id }) {
     setIndex(Number(id));
   }, [id]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [index]);
+
   return (
     <div
       className="text-2xl p-4 flex flex-col items-center font-bold gap-8"
@@ -16,7 +20,6 @@ function Leson({ arr, index, videoFun, videoState, Next, Prev, setIndex, id }) {
       ></div>
 
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-        {/* Next Button on larger screens (left of the image) */}
         <button
           className="hidden sm:block text-start w-fit"
           onClick={Next}
@@ -38,7 +41,6 @@ function Leson({ arr, index, videoFun, videoState, Next, Prev, setIndex, id }) {
           )}
         </div>
 
-        {/* Previous Button on larger screens (right of the image) */}
         <button
           className="hidden sm:block text-end w-fit"
           onClick={Prev}
@@ -50,7 +52,6 @@ function Leson({ arr, index, videoFun, videoState, Next, Prev, setIndex, id }) {
           <i className="text-4xl fa-solid fa-backward-step"></i>
         </button>
 
-        {/* On small screens, arrows are placed horizontally under the images */}
         <div className="flex justify-between items-center w-full sm:hidden mt-4">
           {/* Next Button */}
           <button
