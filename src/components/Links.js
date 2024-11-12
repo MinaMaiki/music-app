@@ -1,16 +1,12 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import imgsrcmusicworld from "../assists/imgs/عالم الموسيقي.png";
 import bgintro from "../assists/imgs/bg intro.png";
 import welcomeVid from "../assists/Welcome Video.mp4";
 
-function Links() {
-  const [Showcontent, setshowContent] = useState(false);
-
+function Links({ setshowContent, Showcontent }) {
   const HandleWelcomeVid = () => {
     setshowContent(true);
   };
-
   return (
     <div className="flex justify-between flex-col min-h-screen">
       {!Showcontent ? (

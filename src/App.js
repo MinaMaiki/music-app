@@ -11,7 +11,10 @@ import Summary from "./components/Summary";
 import logo from "../src/assists/logo dona.png";
 import IntroAbProgram2 from "./components/Intro/IntroAbProgram2";
 import IntroAbProgram3 from "./components/Intro/IntroAbProgram3";
+import { useState } from "react";
 function App() {
+  const [Showcontent, setshowContent] = useState(false);
+
   return (
     <div className="App min-h-screen bg-gradient-to-l from-[#ffff] to-[#acacac] ">
       <div className="flex items-center justify-end px-4">
@@ -24,7 +27,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route element={<Start />} path="/" />
+          <Route element={<Start setshowContent={setshowContent} />} path="/" />
           <Route element={<IntroLinks />} path="introlinks">
             <Route element={<AboutTheProgram />} path="about" />
             <Route element={<IntroAbProgram1 />} path="introofpro1" />
@@ -33,7 +36,15 @@ function App() {
             <Route element={<Nay />} path="nay" />
           </Route>
           <Route element={<Lesons />} path="/lesons/:id" />
-          <Route element={<Links />} path="/links" />
+          <Route
+            element={
+              <Links
+                Showcontent={Showcontent}
+                setshowContent={setshowContent}
+              />
+            }
+            path="/links"
+          />
           <Route element={<Summary />} path="/summary" />
         </Routes>
       </BrowserRouter>
