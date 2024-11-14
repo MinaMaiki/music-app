@@ -7,18 +7,10 @@ function Links({ setshowContent, Showcontent }) {
   const HandleWelcomeVid = () => {
     setshowContent(true);
   };
+
   return (
     <div className="flex justify-between flex-col min-h-screen">
-      {!Showcontent ? (
-        <div className="h-screen w-screen  bg-gradient-to-r from-violet-900/50">
-          <video
-            src={welcomeVid}
-            autoPlay
-            onEnded={HandleWelcomeVid}
-            className="w-screen h-screen md:object-cover"
-          />
-        </div>
-      ) : (
+      {Showcontent ? (
         <>
           <div className="flex items-center mt-4 justify-center px-4 sm:px-0">
             <img
@@ -57,6 +49,15 @@ function Links({ setshowContent, Showcontent }) {
             />
           </div>
         </>
+      ) : (
+        <div className="h-screen w-screen  bg-gradient-to-r from-violet-900/50">
+          <video
+            src={welcomeVid}
+            autoPlay
+            onEnded={HandleWelcomeVid}
+            className="w-screen h-screen md:object-cover"
+          />
+        </div>
       )}
     </div>
   );

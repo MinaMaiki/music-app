@@ -13,8 +13,8 @@ import IntroAbProgram2 from "./components/Intro/IntroAbProgram2";
 import IntroAbProgram3 from "./components/Intro/IntroAbProgram3";
 import { useState } from "react";
 function App() {
-  const [Showcontent, setshowContent] = useState(false);
-
+  const [Showcontent, setshowContent] = useState(true);
+  console.log(Showcontent);
   return (
     <div className="App min-h-screen bg-gradient-to-l from-[#ffff] to-[#acacac] ">
       <div className="flex items-center justify-end px-4">

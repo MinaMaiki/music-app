@@ -1,6 +1,9 @@
-import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 function Start({ setshowContent }) {
+  useEffect(() => {
+    setshowContent(false);
+  });
   return (
     <div className="flex justify-between min-h-screen flex-col p-6 pt-0">
       <div className="flex justify-center items-center flex-col text-4xl gap-10">
@@ -19,7 +22,6 @@ function Start({ setshowContent }) {
         <Link
           to={"/Links"}
           className="shadow-lg bg-slate-500 hover:bg-slate-600  focus:ring-4  px-16 py-2  rounded-lg text-white transition duration-200 ease-in-out"
-          onClick={() => setshowContent(false)}
         >
           أبدأ
         </Link>
