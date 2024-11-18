@@ -25,7 +25,7 @@ function App() {
         />
       </div>
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route element={<Start setshowContent={setshowContent} />} path="/" />
           <Route element={<IntroLinks />} path="introlinks">
@@ -47,7 +47,7 @@ function App() {
           />
           <Route element={<Summary />} path="/summary" />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }

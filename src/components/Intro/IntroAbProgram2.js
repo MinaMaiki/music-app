@@ -15,7 +15,7 @@ function IntroAbProgram2() {
             مجموعة من الدروس مصممة خصيصاً لتعلم آلة الناي بطريقة صحيحة وأكاديمية
           </p>
           <div className="flex justify-center items-center">
-            <img className="max-w-sm mx-2" src={imgwoman} />
+            <img className="max-w-sm mx-2" src={imgwoman} alt="img" />
           </div>
         </div>
         <p className="text-center">

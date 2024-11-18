@@ -95,7 +95,6 @@ function Leson({ arr, index, videoFun, videoState, Next, Prev, setIndex, id }) {
             className="w-full max-w-4xl h-[calc(100vw*(9/16))] sm:h-[500px] sm:max-w-2xl"
             src={arr[index].vid}
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
