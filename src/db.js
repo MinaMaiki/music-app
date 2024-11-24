@@ -32,7 +32,7 @@ export const arr = [
     id: "1",
     img: imgwoman,
     text: "المسكه الصحيحه لآله الناي من خلال رفع الرأس والوجه إلي الأمام والأصابع فوق الثقوب بإحكام والإبهام في اليد اليسري فوق الثقب الخلفي، وإبهام اليد اليمني من الخلف لتثبيت القصبه بين اليدين ،ووضع الطرف الاعلي علي حافة الشفتين من الخارج ،وهي مضمونتين دون الضغط عليهم ويكون الناي مائلاً قليلاً إلي اليمين .",
-    vid: "https://www.youtube.com/embed/W-wmQTgS4ao?autoplay=0",
+    // vid: "https://www.youtube.com/embed/W-wmQTgS4ao?autoplay=0",
   },
   {
     name: "الدرس الثالث: كيفية إصدار الصوت من آلة الناي",
@@ -102,7 +102,7 @@ export const arr = [
     id: "10",
     img: img10,
     text: "",
-    vid: "https://www.youtube.com/embed/ZOJ_EQsaf7Y?autoplay=0",
+    // vid: "https://www.youtube.com/embed/ZOJ_EQsaf7Y?autoplay=0",
   },
   {
     name: "الدرس الخامس: النفخه الثانيه لاله الناي ",
