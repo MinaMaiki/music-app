@@ -88,21 +88,21 @@ export const arr = [
     id: "8",
     img: img8,
     text: "",
-    vid: "https://www.youtube.com/embed/DI9sj57Sj6g?autoplay=0",
+    // vid: "https://www.youtube.com/embed/DI9sj57Sj6g?autoplay=0",
   },
   {
     name: " - كيفية عزف نغمه ري ( دوكاه )",
     id: "9",
     img: img9,
     text: "",
-    vid: "https://www.youtube.com/embed/q80FA-aHfrs?autoplay=0",
+    // vid: "https://www.youtube.com/embed/q80FA-aHfrs?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه دو ( راست )",
     id: "10",
     img: img10,
     text: "",
-    vid: "https://www.youtube.com/embed/ZOJ_EQsaf7Y?autoplay=0",
+    // vid: "https://www.youtube.com/embed/ZOJ_EQsaf7Y?autoplay=0",
   },
   {
     name: "الدرس الخامس: النفخه الثانيه لاله الناي ",
@@ -116,7 +116,7 @@ export const arr = [
     id: "12",
     img: img11,
     text: "",
-    vid: "https://www.youtube.com/embed/SL44ynltXUs?autoplay=0",
+    // vid: "https://www.youtube.com/embed/SL44ynltXUs?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه سي نصف بيمول ( أوج )",
@@ -130,7 +130,7 @@ export const arr = [
     id: "14",
     img: img13,
     text: "",
-    vid: "https://www.youtube.com/embed/KCeqmVfmkr4?autoplay=0",
+    // vid: "https://www.youtube.com/embed/KCeqmVfmkr4?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه دو جواب ( كردان )",
@@ -152,7 +152,7 @@ export const arr = [
     id: "17",
     img: imgٌRast,
     text: "",
-    vid: "https://www.youtube.com/embed/vbf5EINRSw4?autoplay=0",
+    // vid: "https://www.youtube.com/embed/vbf5EINRSw4?autoplay=0",
     xl: true,
   },
   {
@@ -160,7 +160,7 @@ export const arr = [
     id: "18",
     img: imgbyate,
     text: "",
-    vid: "https://www.youtube.com/embed/SSa7Gz2rCyw?autoplay=0",
+    // vid: "https://www.youtube.com/embed/SSa7Gz2rCyw?autoplay=0",
     xl: true,
   },
   {
@@ -168,7 +168,7 @@ export const arr = [
     id: "19",
     img: imghegaz,
     text: "",
-    vid: "https://www.youtube.com/embed/24AQ-PwX3yQ?autoplay=0",
+    // vid: "https://www.youtube.com/embed/24AQ-PwX3yQ?autoplay=0",
     xl: true,
   },
   {
@@ -176,7 +176,7 @@ export const arr = [
     id: "20",
     img: imgSeba,
     text: "",
-    vid: "https://www.youtube.com/embed/aQnsoqQ0fr4?autoplay=0",
+    // vid: "https://www.youtube.com/embed/aQnsoqQ0fr4?autoplay=0",
     xl: true,
   },
 ];
