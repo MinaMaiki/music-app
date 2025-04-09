@@ -6,3 +6,6 @@
   width: 100%;
   font-family: "Cairo", sans-serif;
 }
+body {
+  height: 100%;
+}
