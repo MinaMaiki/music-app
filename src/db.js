@@ -32,7 +32,7 @@ export const arr = [
     id: "1",
     img: imgwoman,
     text: "المسكه الصحيحه لآله الناي من خلال رفع الرأس والوجه إلي الأمام والأصابع فوق الثقوب بإحكام والإبهام في اليد اليسري فوق الثقب الخلفي، وإبهام اليد اليمني من الخلف لتثبيت القصبه بين اليدين ،ووضع الطرف الاعلي علي حافة الشفتين من الخارج ،وهي مضمونتين دون الضغط عليهم ويكون الناي مائلاً قليلاً إلي اليمين .",
-    // vid: "https://www.youtube.com/embed/W-wmQTgS4ao?autoplay=0",
+    vid: "https://www.youtube.com/embed/W-wmQTgS4ao?autoplay=0",
   },
   {
     name: "الدرس الثالث: كيفية إصدار الصوت من آلة الناي",
@@ -44,7 +44,7 @@ export const arr = [
 3- وضع أصابع اليد على الثقوب ويكون كف اليد بشكل مقوس.<br/>
 4- وضع الآلة على شفاه العازف وخروج الهواء من الفم بشكل مستقيم باستخدام طرف اللسان إلى داخل الآلة.<br/>
 5- إغلاق جميع ثقوب الآلة بإحكام حتى لا يتسرب منها الهواء أثناء العزف.`,
-    // vid: "https://www.youtube.com/embed/3g_PjYXZD1o?autoplay=0",
+    vid: "https://www.youtube.com/embed/3g_PjYXZD1o?autoplay=0",
   },
 
   {
@@ -59,7 +59,7 @@ export const arr = [
     id: "4",
     img: img4,
     text: "",
-    // vid: "https://www.youtube.com/embed/8KEz6lS-uNQ?autoplay=0",
+    vid: "https://www.youtube.com/embed/8KEz6lS-uNQ?autoplay=0",
     note: imgnote,
   },
   {
@@ -67,42 +67,42 @@ export const arr = [
     id: "5",
     img: img5,
     text: "",
-    // vid: "https://www.youtube.com/embed/uN6gEJS2Qt0?autoplay=0",
+    vid: "https://www.youtube.com/embed/uN6gEJS2Qt0?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه فا دييز ( حجاز )",
     id: "6",
     img: img6,
     text: "",
-    // vid: "https://www.youtube.com/embed/05qhasSCoIU?autoplay=0",
+    vid: "https://www.youtube.com/embed/05qhasSCoIU?autoplay=0",
   },
   {
     name: "- كيفيه عزف نغمه مي نصف بيمول ( سيكا )",
     id: "7",
     img: img7,
     text: "",
-    // vid: "https://www.youtube.com/embed/LnBTA_tw_MA?autoplay=0",
+    vid: "https://www.youtube.com/embed/LnBTA_tw_MA?autoplay=0",
   },
   {
     name: "- كيفيه عزف نغمه مي بيمول ( كرد )",
     id: "8",
     img: img8,
     text: "",
-    // vid: "https://www.youtube.com/embed/DI9sj57Sj6g?autoplay=0",
+    vid: "https://www.youtube.com/embed/DI9sj57Sj6g?autoplay=0",
   },
   {
     name: " - كيفية عزف نغمه ري ( دوكاه )",
     id: "9",
     img: img9,
     text: "",
-    // vid: "https://www.youtube.com/embed/q80FA-aHfrs?autoplay=0",
+    vid: "https://www.youtube.com/embed/q80FA-aHfrs?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه دو ( راست )",
     id: "10",
     img: img10,
     text: "",
-    // vid: "https://www.youtube.com/embed/ZOJ_EQsaf7Y?autoplay=0",
+    vid: "https://www.youtube.com/embed/ZOJ_EQsaf7Y?autoplay=0",
   },
   {
     name: "الدرس الخامس: النفخه الثانيه لاله الناي ",
@@ -116,7 +116,7 @@ export const arr = [
     id: "12",
     img: img11,
     text: "",
-    // vid: "https://www.youtube.com/embed/SL44ynltXUs?autoplay=0",
+    vid: "https://www.youtube.com/embed/SL44ynltXUs?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه سي نصف بيمول ( أوج )",
@@ -130,7 +130,7 @@ export const arr = [
     id: "14",
     img: img13,
     text: "",
-    // vid: "https://www.youtube.com/embed/KCeqmVfmkr4?autoplay=0",
+    vid: "https://www.youtube.com/embed/KCeqmVfmkr4?autoplay=0",
   },
   {
     name: " - كيفيه عزف نغمه دو جواب ( كردان )",
@@ -152,7 +152,7 @@ export const arr = [
     id: "17",
     img: imgٌRast,
     text: "",
-    // vid: "https://www.youtube.com/embed/vbf5EINRSw4?autoplay=0",
+    vid: "https://www.youtube.com/embed/vbf5EINRSw4?autoplay=0",
     xl: true,
   },
   {
@@ -160,7 +160,7 @@ export const arr = [
     id: "18",
     img: imgbyate,
     text: "",
-    // vid: "https://www.youtube.com/embed/SSa7Gz2rCyw?autoplay=0",
+    vid: "https://www.youtube.com/embed/SSa7Gz2rCyw?autoplay=0",
     xl: true,
   },
   {
@@ -168,7 +168,7 @@ export const arr = [
     id: "19",
     img: imghegaz,
     text: "",
-    // vid: "https://www.youtube.com/embed/24AQ-PwX3yQ?autoplay=0",
+    vid: "https://www.youtube.com/embed/24AQ-PwX3yQ?autoplay=0",
     xl: true,
   },
   {
@@ -176,7 +176,7 @@ export const arr = [
     id: "20",
     img: imgSeba,
     text: "",
-    // vid: "https://www.youtube.com/embed/aQnsoqQ0fr4?autoplay=0",
+    vid: "https://www.youtube.com/embed/aQnsoqQ0fr4?autoplay=0",
     xl: true,
   },
 ];
