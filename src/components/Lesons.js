@@ -28,8 +28,8 @@ export default function Lesons() {
       <Leson
         arr={arr}
         index={index}
-        videoFun={videoFun}
-        videoState={videoState}
+        // videoFun={videoFun}
+        // videoState={videoState}
         Next={Next}
         Prev={Prev}
         setIndex={setIndex}
